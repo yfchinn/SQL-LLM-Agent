@@ -1,6 +1,7 @@
 # SQL-LLM-Agent
 The SQL LLM Agent is a LangFlow application that integrates SQL capabilities with a large language model (LLM), enabling users to interact with databases in a natural language format.
 
+
 ## Overview
 
 <img src="./img/workflow.png" width="1000"/>
@@ -15,6 +16,30 @@ chat input, URI, and LLM model
 → combine the text (prompt and the output from database)
 → LLM model
 → chat output
+
+
+## How to Run (with Miniconda)
+
+1. Create the environment
+   ```
+   conda create -n langflow python=3.11
+   conda activate langflow
+   ```
+
+2. Install Langflow
+  ```
+  pip install langflow -U
+  ```
+
+3. Run Langflow
+  ```
+  langflow run
+  ```
+
+4. Load the Flow
+- Import the project’s flow JSON definition in the Langflow interface.
+- Enter the database URI (e.g., PostgreSQL).
+- Set the LLM API key (e.g., Cohere, OpenAI, or any other LLM).
 
 ## Details
 
