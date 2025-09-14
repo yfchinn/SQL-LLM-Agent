@@ -4,7 +4,7 @@ The SQL LLM Agent is a LangFlow application that integrates SQL capabilities wit
 
 ## Overview
 
-<img src="./img/workflow.png" width="1000"/>
+<img src="./img/workflow-ollama.png" width="1000"/>
 
 _p.s. SQL Code Extractor and SQL Executor are custom components._
 
