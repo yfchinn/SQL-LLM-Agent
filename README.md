@@ -51,3 +51,6 @@ Chat input, URI, and LLM model
 - **SQL Executor**: The application uses SQLAlchemy as the library for database connection and query execution, offering support for multiple database systems such as PostgreSQL, MySQL, SQLite, and others.
 
 - **Natural Language Processing**: This application uses the Cohere API for natural language processing as it offers a free tier. However, you can replace Cohere with any LLM model of your choice.
+
+
+For more details, see the [introduction.pdf](./doc/introduction.pdf).
